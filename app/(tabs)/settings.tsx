@@ -66,17 +66,14 @@ const Settings = () => {
       </View>
 
       {/* Sign Out Button */}
-      <Pressable className="auth-button bg-destructive" onPress={() => signOut()}>
-        <Text className="auth-button-text text-white">Sign Out</Text>
-      </Pressable>
-      {/* <Pressable
+      <Pressable
         className="auth-button bg-destructive"
         onPress={handleSignOut}
       >
         <Text className="auth-button-text text-white">Sign Out</Text>
-      </Pressable> */}
+      </Pressable>
     </SafeAreaView>
   )
 }
 
-export default Settings;
+export default Settings
